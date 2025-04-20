@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="tesla-logo-png-2251.png" type="image/x-icon">
+    <title>Tesla</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+     
+        .i{
+            width: 100%;
+            z-index: 1;
+        }
+        .nav-1{
+            /*color: white;*/
+           /* display: flex;*/
+            text-decoration: none;
+            position: absolute;
+            top: 0;
+            padding: 0 37%;
+        }
+       
+        a{
+            position: relative;
+            text-decoration: none;
+            color: white;
+            justify-content: center;
+            padding: 0 15px;
+            top: 10px;
+        }
+        a:hover{
+            background-color: white;
+            color: black;
+            border-radius: 6px;
+            
+        }
+        .conte{
+            position: absolute;
+            top: 20%;
+            padding: 0 40%;
+            color: white;
+        }
+        .btn{
+            position: absolute;
+            top: 45%;
+           /* padding: 0 40%;*/
+            padding: 0 35%;
+           
+            border-radius: 2px;
+            
+        }
+        .btn-01{
+            background-color: #276ee8;
+            color: white;
+            
+        }
+        .btn-01:hover{
+            background-color: #1b4896;
+        }
+        button{
+            width: 200px;
+            height: 6vh;
+            border-radius: 5px;
+        }
+        .icons{
+            position: absolute;
+            width: 15px;
+            top: 12px;
+            right: 60px;
+            
+        }
+        .icons-02{
+            position: absolute;
+            width: 15px;
+            top: 12px;
+            right: 30px;
+        }
+        .logo{
+            position: absolute;
+            width: 10%;
+            top: 12px;
+            left: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <img class="i" src="./images/model-y.avif" alt="Tesla">
+    </div>
+    <center style="z-index: 100;">
+        <img class="logo" src="./images/tesla-logo-png-2244.png" alt="">
+        <ul class="nav-1">
+            <a href="#">cars</a>
+            <a href="#">enrgy</a>
+            <a href="#">charging</a>
+            <a href="#">disscover</a>
+            <a href="#">shop</a>
+            <img class="icons" src="./images/circle-question-regular.svg" alt="">
+            <img class="icons-02" src="./images/globe-solid.svg" alt="">
+        </ul>
+        
+        <div class="conte">
+           
+            <h1>Model Y </h1>
+            <br>
+            <h2>Starting at $41,490</h2>
+            <br>
+            <h2>after $7,500 Federal Tax Credit</h2>
+        </div>
+        
+        <div class="btn">
+            <button class="btn-01">Order Now</button>
+            <button>Learn More</button>
+        </div>
+    </center>
+</body>
+</html>
